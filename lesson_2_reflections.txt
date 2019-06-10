@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+The repository is createed when you run the "git init" command, this is needed to start the repository.
+There is no commit, this should be done manually.
