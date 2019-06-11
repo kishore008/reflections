@@ -4,3 +4,20 @@ There is no commit, this should be done manually.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area gives more control to the user and the user can choose which files to be added to the commit and commit the fies at once, instead of doing the commit for each file.
+
+How can you use the staging area to make sure you have one commit per logical change?
+We can use staging area to make sure there is one commit per logical change by using git diff, which comapres the files between working directory and staging area.
+when we use git diff --staged, the comparison is between the stating area against the repository, hence this way, it can be made sure that there is only one logical change
+per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+The branches will be helpful when there is an experimental feature to be added without disturbing the main branch.
+Branches help in keeping the code safe and working.
+
+
+How do the diagrams help you visualize the branch structure?
+The diagrams shows a pictorial represntation of the branches and commit, that is how they help.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result of merging 2 branches together is a new branch, to add features from both the branches.
+We represent in the diagram the way we do because, it gives us a better mental picture of the branches and the tip of the branch.
