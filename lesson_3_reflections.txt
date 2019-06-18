@@ -14,3 +14,8 @@ So, any futher changes can be done locally and the commits by others can be sync
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I don't think colaboration without GIthub is possible, Github is easier and sharing the work and communicating is harder otherwise.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+We cannot make changes in the master branch because, it may break the project.
+If we make changes in the master branch, keeping up to date with project locally and github is easy.
+If we create another branch, the experimentation can be better.
